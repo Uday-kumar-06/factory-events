@@ -14,8 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface MachineEventRepository
-        extends JpaRepository<MachineEvent, Long> {
+public interface MachineEventRepository extends JpaRepository<MachineEvent, Long> {
 
     // 1️⃣ Basic lookup by eventId
     Optional<MachineEvent> findByEventId(String eventId);
