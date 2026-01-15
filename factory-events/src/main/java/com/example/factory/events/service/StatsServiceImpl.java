@@ -1,4 +1,4 @@
 package com.example.factory.events.service;
 
-public interface EventIngestionService {
+public class StatsServiceImpl {
 }
