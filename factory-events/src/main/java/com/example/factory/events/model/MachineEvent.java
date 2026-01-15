@@ -1,9 +1,15 @@
 package com.example.factory.events.model;
 
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.time.Instant;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Entity
 @Table(
         name = "machine_events",
